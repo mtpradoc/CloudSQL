@@ -1,11 +1,14 @@
-CREATE TABLE IF NOT EXISTS patient_details (
-    `PATIENT_ID` INT,
-    `NAME` VARCHAR(29) CHARACTER SET utf8,
+USE testdb;
+
+CREATE TABLE `patient_details` (
+    `PATIENT_ID` INT NOT NULL,
+    `NAME` VARCHAR(29),
     `AGE` INT,
-    `GENDER` VARCHAR(1) CHARACTER SET utf8,
+    `GENDER` VARCHAR(1),
     `SMOKE` INT,
     `DRINK` INT,
-    `EXERCISE_DAYS` INT
+    `EXERCISE_DAYS` INT,
+    PRIMARY KEY (`PATIENT_ID`)
 );
 INSERT INTO patient_details VALUES
     (1465,'Aarika Drynan',69,'F',0,0,1),
