@@ -1,1 +1,1 @@
-# In this repo you will find a notebaook on some methods to access Cloud SQL using Python
+#  Access Cloud SQL using Python library MySQLConnect
