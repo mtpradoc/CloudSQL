@@ -1,4 +1,4 @@
-#  Cloud SQL access using MySQLConnect
+#  Secure Access Cloud SQL using MySQLConnect
 
 1. Create an instance in Cloud SQL
 2. Enable Public IP Access
