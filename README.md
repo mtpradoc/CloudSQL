@@ -1,4 +1,4 @@
-#  Access Cloud SQL using Python library MySQLConnect
+#  Cloud SQL access using MySQLConnect
 
 1. Create an instance in Cloud SQL
 2. Enable Public IP Access
